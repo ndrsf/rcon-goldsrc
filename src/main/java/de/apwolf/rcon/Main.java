@@ -15,7 +15,7 @@ public class Main {
      * @throws IOException
      */
     public static void main(String[] args) throws IOException {
-        String serverIpAndPort = "87.98.245.115:27021";
+        String serverIpAndPort = "127.0.0.1:27021";
         RconConnector connector = new RconConnector();
         connector.connect(null, serverIpAndPort);
     }
